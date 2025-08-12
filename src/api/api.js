@@ -10,7 +10,7 @@ async function main(props) {
     model: "gemini-2.5-flash",
     contents: props,
   });
-  console.log(response.text);
+  return response.text;
 }
 
 export default main;
